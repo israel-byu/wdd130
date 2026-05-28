@@ -47,7 +47,7 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: var(--cor-primaria);
+    color: var(--cor-secundaria);
     font-weight: bold;
 }
 
@@ -86,7 +86,7 @@ article {
 
     text-align: center;
 
-    background-color: rgba(29, 53, 87, 0.75);
+    background-color: #1d3557bf;
     color: white;
 }
 
@@ -98,7 +98,7 @@ article {
 
     width: 90%;
 
-    background-color: rgba(255, 255, 255, 0.85);
+    background-color: #ffffffd9;
 
     padding: 15px;
 }
