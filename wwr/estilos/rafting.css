@@ -125,6 +125,8 @@ h2 {
 
 .historia-conteudo img {
     width: 200px;
+    height: 150px;
+    object-fit: cover;
 }
 
 /* AVENTURAS */
@@ -138,18 +140,16 @@ h2 {
 .galeria {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
-    gap: 10px;
 }
 
 .galeria figure {
     width: 150px;
-    text-align: center;
     margin: 0;
+    text-align: center;
 }
 
 .galeria img {
-    width: 100%;
+    width: 150px;
     height: 100px;
     object-fit: cover;
 }
