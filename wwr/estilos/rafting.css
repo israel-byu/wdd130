@@ -138,11 +138,14 @@ h2 {
 .galeria {
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
     gap: 10px;
 }
 
 .galeria figure {
+    width: 150px;
     text-align: center;
+    margin: 0;
 }
 
 .galeria img {
