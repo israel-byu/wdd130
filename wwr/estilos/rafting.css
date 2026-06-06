@@ -52,7 +52,7 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: var(--cor-primaria);
+    color: var(--cor-secundaria);
     font-weight: bold;
     background-color: white;
     border: 1px solid #999;
@@ -169,17 +169,17 @@ footer {
     padding: 15px 0;
 }
 
-.redes-sociais {
+.socialmedia {
     display: flex;
     gap: 10px;
 }
 
-.redes-sociais a {
+.socialmedia a {
     border: none;
     background: none;
     padding: 0;
 }
 
-.redes-sociais img {
+.socialmedia img {
     width: 32px;
 }
