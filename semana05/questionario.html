@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionário HTML e CSS</title>
+    <link rel="stylesheet" href="estilos/questionario.css">
+</head>
+<body>
+
+    <main>
+        <h1>Questionário de HTML e CSS</h1>
+
+        <form>
+
+            <div class="form-item">
+                <label for="q1">1. O que significa HTML?</label>
+                <input type="text" id="q1" name="q1">
+            </div>
+
+            <div class="form-item">
+                <label for="q2">2. Explique a função da tag &lt;head&gt;.</label>
+                <textarea id="q2" name="q2" rows="4"></textarea>
+            </div>
+
+            <div class="form-item">
+                <label for="q3">3. Qual propriedade CSS altera a cor do texto?</label>
+                <select id="q3" name="q3">
+                    <option value="" selected disabled>Escolha uma...</option>
+                    <option value="color">color</option>
+                    <option value="background-color">background-color</option>
+                    <option value="font-size">font-size</option>
+                </select>
+            </div>
+
+            <div class="form-item">
+                <label for="q4">4. Qual é a margem inferior dada por esta declaração?</label>
+
+                 <pre>margin: 10px 5px 15px;</pre>
+
+                 <input type="number" id="q4" name="q4">
+            </div>
+
+            <button type="submit">Enviar Questionário</button>
+
+        </form>
+    </main>
+</body>
+</html>
