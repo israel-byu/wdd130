@@ -267,3 +267,92 @@ button:hover {
     height: 180px;
     object-fit: cover;
 }
+
+/* Página Inicial */
+
+.newsletter {
+    background-color: var(--cor-destaque2);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.newsletter form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cta {
+    text-align: center;
+    padding: 25px;
+    margin: 20px 0;
+}
+
+.botao-cta {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 24px;
+    background-color: var(--cor-destaque1);
+    color: var(--cor-primaria);
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid #999;
+}
+
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.home-grid img {
+    width: 100%;
+}
+
+.home-grid div {
+    background-color: var(--cor-destaque2);
+    padding: 15px;
+    border-radius: 8px;
+}
+
+/* Página Passeios */
+
+.passeios-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.passeios-grid img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.passeios-grid article {
+    background-color: var(--cor-destaque2);
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.tabela-passeios {
+    margin: 30px 0;
+}
+
+.tabela-passeios table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabela-passeios th,
+.tabela-passeios td {
+    border: 1px solid #999;
+    padding: 10px;
+    text-align: center;
+}
+
+.tabela-passeios th {
+    background-color: var(--cor-destaque1);
+}
